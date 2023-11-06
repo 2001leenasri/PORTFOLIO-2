@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 6%;
+    letter-spacing: 2px;
+    cursor: pointer; 
+}
+nav ul li{
+    padding: 10px 10px;
+}
+nav ul li a{
+    font-size: 17px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    transition: .4s;
+    transform: scaleX(1.1);
+}
+.navbar-nav{
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 0%;
+}
+.image{
+    padding: 50px 15px; 
+}
+.jumborton h1{
+    margin: 0 0px 20px;
+    font-size: 65px;
+    letter-spacing: 2px;
+    color:rgb(167, 16, 167);
+}
+.jumborton h2{
+    margin: 0px 0 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.jumborton h3{
+    margin: 120px 0 0px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.About-me .jumborton h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.jumborton h5{
+    color:rgb(167, 16, 167);
+    font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.jumborton p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+.college{
+    letter-spacing: 1px;
+}
+.college:hover{
+    color:darkblue;
+    transition: .4s;
+    transform: scale(1.2);
+}
+.html{
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bx{
+    font-size: xx-large;
+}
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color:rgb(228, 238, 84);
+    color: #022a30;
+}
+.card-custom a{
+    font-size: larger;
+    font-weight: bolder;
+    color: #000;
+}
+.card-custom{
+    background-color: pink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.card-custom:hover{
+    color:darkblue;
+    transition: .4s;
+    transform: scale(1.2);
+}
+.form .form-control{
+    background-color:pink;
+}
+.form .form-control::placeholder{
+    color: #000;
+}
+.email{
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 1%;
+}
+
+
+
+@media (min-width:320px) and (max-width:1024px) {
+    h1{
+        padding-top: 10px;
+        padding-left: 0%;
+        padding-right: 0%; 
+    }
+    .navbar-toggler{
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .jumborton h3{
+        margin: 50px 0 0px 0;
+    }
+    .jumborton h1{
+        margin: 0 0px 20px;
+        font-size: 58px;
+    }
+    .image{
+        position: relative;
+        left: 15px;
+    }
+    .college{
+        margin-bottom: 10%;
+    }
+    .col-lg-3{
+        margin-bottom: 10%;
+    }
+    .website{
+        margin-bottom: 10%;
+    }
+    .email{
+        width: 100%;
+        height: 95%;
+    }
+    .About-me .container{
+       width: 185%;
+       position: relative;
+       left: -80px;
+    }
+    
+}
